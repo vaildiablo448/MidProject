@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Context displayName="Bicycle Rent" docBase="BicycleRent"
+	path="/BicycleRent" reloadable="true">
+	<!-- SQLServer -->
+	<Resource name="jdbc/BicycleRent" type="javax.sql.DataSource"
+		username="sa" password="passw0rd"
+		driverClassName="com.microsoft.sqlserver.jdbc.SQLServerDriver"
+		url="jdbc:sqlserver://localhost:1433;databaseName=DBmid" maxTotal="8"
+		maxIdle="4" maxWaitMillis="5000" />
+</Context>
